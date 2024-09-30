@@ -48,9 +48,9 @@ pkg> test
 ```
 
 Tools for running jobs and plotting results are contained in `/scripts`. To recreate our
-experiments, one can run the following script:
+experiments, one can run the following command:
 ```
-julia> scripts/Jobs/jobs_all.jl
+julia> include("scripts/Jobs/jobs_all.jl")
 ```
 This runs the experiments defined in `/scripts/Jobs/Exps`. On an NVIDIA A100, training the
 ordinary neural network required roughly 1 second per epoch for detection and 4 seconds per
