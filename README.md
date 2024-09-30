@@ -13,7 +13,7 @@ to make a reproducible scientific project named
 > MINC
 
 It is authored by James Amarel in collaboration with Chris Rudolf, Athanasios Iliopoulos,
-John Michopoulos, and Leslie N Smith. The paper is available on
+John Michopoulos, and Leslie N Smith. The preprint is available on
 [arXiv](https://www.arxiv.org/abs/2409.06084).
 
 To (locally) reproduce this project, do the following:
