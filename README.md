@@ -1,4 +1,11 @@
 # MINC
+This repository is concerned with deep learning techniques to detect and localize damage on
+a thin aluminum plate. Contained within are three neural network architectures,
+each of which is designed to map acoustic sensing data to either a vector indicating the
+location of damage or a binary quantity indicating the presence (or absence) of damage.
+Of the three models, we found that the best performing architectures was
+manifestly aware of the geometry of our sensor grid. Awareness of symmetry was achieved
+through equivariant group convolutions.
 
 This code base is using the [Julia Language](https://julialang.org/) and
 [DrWatson](https://juliadynamics.github.io/DrWatson.jl/stable/)
