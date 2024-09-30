@@ -47,7 +47,7 @@ Tests for this package can be run using the following command:
 pkg> test
 ```
 
-Tools for running jobs and plotting results are contained in /scripts. To recreate our
+Tools for running jobs and plotting results are contained in `/scripts`. To recreate our
 experiments, one can run the following script:
 ```
 julia> scripts/Jobs/jobs_all.jl
